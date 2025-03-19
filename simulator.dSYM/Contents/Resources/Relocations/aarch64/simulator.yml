@@ -1,0 +1,30 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     simulator
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _cache_init, symObjAddr: 0x0, symBinAddr: 0x10000235C, symSize: 0x304 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _cache, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x14E, offset: 0x14E, size: 0x8, addend: 0x0, symName: _cache_init, symObjAddr: 0x0, symBinAddr: 0x10000235C, symSize: 0x304 }
+  - { offsetInCU: 0x1C6, offset: 0x1C6, size: 0x8, addend: 0x0, symName: _cache_access, symObjAddr: 0x304, symBinAddr: 0x100002660, symSize: 0xB8 }
+  - { offsetInCU: 0x218, offset: 0x218, size: 0x8, addend: 0x0, symName: _findCacheHit, symObjAddr: 0x3BC, symBinAddr: 0x100002718, symSize: 0xF4 }
+  - { offsetInCU: 0x278, offset: 0x278, size: 0x8, addend: 0x0, symName: _cacheMiss, symObjAddr: 0x4B0, symBinAddr: 0x10000280C, symSize: 0x220 }
+  - { offsetInCU: 0x2E6, offset: 0x2E6, size: 0x8, addend: 0x0, symName: _updateLRUs, symObjAddr: 0x6D0, symBinAddr: 0x100002A2C, symSize: 0xEC }
+  - { offsetInCU: 0x347, offset: 0x347, size: 0x8, addend: 0x0, symName: _getSetNum, symObjAddr: 0x7BC, symBinAddr: 0x100002B18, symSize: 0xA8 }
+  - { offsetInCU: 0x39E, offset: 0x39E, size: 0x8, addend: 0x0, symName: _processToCache, symObjAddr: 0x864, symBinAddr: 0x100002BC0, symSize: 0x70 }
+  - { offsetInCU: 0x3DE, offset: 0x3DE, size: 0x8, addend: 0x0, symName: _cacheToProcess, symObjAddr: 0x8D4, symBinAddr: 0x100002C30, symSize: 0x48 }
+  - { offsetInCU: 0x417, offset: 0x417, size: 0x8, addend: 0x0, symName: _getTag, symObjAddr: 0x91C, symBinAddr: 0x100002C78, symSize: 0x8C }
+  - { offsetInCU: 0x45F, offset: 0x45F, size: 0x8, addend: 0x0, symName: _findLRU, symObjAddr: 0x9A8, symBinAddr: 0x100002D04, symSize: 0x108 }
+  - { offsetInCU: 0x4C4, offset: 0x4C4, size: 0x8, addend: 0x0, symName: _writeBackData, symObjAddr: 0xAB0, symBinAddr: 0x100002E0C, symSize: 0x18C }
+  - { offsetInCU: 0x54A, offset: 0x54A, size: 0x8, addend: 0x0, symName: _printAction, symObjAddr: 0xC3C, symBinAddr: 0x100002F98, symSize: 0x130 }
+  - { offsetInCU: 0x58E, offset: 0x58E, size: 0x8, addend: 0x0, symName: _getOffset, symObjAddr: 0xD6C, symBinAddr: 0x1000030C8, symSize: 0x64 }
+  - { offsetInCU: 0x5D6, offset: 0x5D6, size: 0x8, addend: 0x0, symName: _printStats, symObjAddr: 0xDD0, symBinAddr: 0x10000312C, symSize: 0x4 }
+  - { offsetInCU: 0x5EC, offset: 0x5EC, size: 0x8, addend: 0x0, symName: _printCache, symObjAddr: 0xDD4, symBinAddr: 0x100003130, symSize: 0x198 }
+  - { offsetInCU: 0x26, offset: 0x685, size: 0x8, addend: 0x0, symName: _mem_access, symObjAddr: 0x0, symBinAddr: 0x1000032C8, symSize: 0xAC }
+  - { offsetInCU: 0x4D, offset: 0x6AC, size: 0x8, addend: 0x0, symName: _state, symObjAddr: 0x1E50, symBinAddr: 0x100049010, symSize: 0x0 }
+  - { offsetInCU: 0xD1, offset: 0x730, size: 0x8, addend: 0x0, symName: _num_mem_accesses, symObjAddr: 0x1E4C, symBinAddr: 0x10004900C, symSize: 0x0 }
+  - { offsetInCU: 0xDB, offset: 0x73A, size: 0x8, addend: 0x0, symName: _mem_access, symObjAddr: 0x0, symBinAddr: 0x1000032C8, symSize: 0xAC }
+  - { offsetInCU: 0x11F, offset: 0x77E, size: 0x8, addend: 0x0, symName: _get_num_mem_accesses, symObjAddr: 0xAC, symBinAddr: 0x100003374, symSize: 0xC }
+  - { offsetInCU: 0x138, offset: 0x797, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xB8, symBinAddr: 0x100003380, symSize: 0x5B8 }
+  - { offsetInCU: 0x24F, offset: 0x8AE, size: 0x8, addend: 0x0, symName: _convertNum, symObjAddr: 0x690, symBinAddr: 0x100003958, symSize: 0x38 }
+  - { offsetInCU: 0x277, offset: 0x8D6, size: 0x8, addend: 0x0, symName: _printState, symObjAddr: 0x6C8, symBinAddr: 0x100003990, symSize: 0x14C }
+...
