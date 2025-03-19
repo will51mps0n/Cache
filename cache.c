@@ -1,9 +1,3 @@
-/*
- * EECS 370, University of Michigan
- * Project 4: LC-2K Cache Simulator
- * Instructions are found in the project spec.
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -11,7 +5,6 @@
 #define MAX_CACHE_SIZE 256
 #define MAX_BLOCK_SIZE 256
 
-// **Note** this is a preprocessor macro. This is not the same as a function.
 // Powers of 2 have exactly one 1 and the rest 0's, and 0 isn't a power of 2.
 #define is_power_of_2(val) (val && !(val & (val - 1)))
 
@@ -336,11 +329,6 @@ void printStats(void)
 
 /*
  * Log the specifics of each cache action.
- *
- *DO NOT modify the content below.
- * address is the starting word address of the range of data being transferred.
- * size is the size of the range of data being transferred.
- * type specifies the source and destination of the data being transferred.
  *  -    cacheToProcessor: reading data from the cache to the processor
  *  -    processorToCache: writing data from the processor to the cache
  *  -    memoryToCache: reading data from the memory to the cache
@@ -380,8 +368,6 @@ void printAction(int address, int size, enum actionType type)
 
 /*
  * Prints the cache based on the configurations of the struct
- * This is for debugging only and is not graded, so you may
- * modify it, but that is not recommended.
  */
 void printCache(void)
 {
