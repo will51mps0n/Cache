@@ -1,21 +1,9 @@
-/**
- * Project 1
- * Assembler code fragment for LC-2K
- * Use of undefined labels
-    Duplicate definition of labels
-    offsetFields that don’t fit in 16 bits
-    unrecognized opcodes
-    Non-integer register arguments
-    TODO:Registers outside the range [0, 7]
- */
-
 #include <stdbool.h>
 #include <stdlib.h>
 #include <stdint.h>
 #include <stdio.h>
 #include <string.h>
 
-// Every LC2K file will contain less than 1000 lines of assembly.
 #define MAXLINELENGTH 1000
 
 int readAndParse(FILE *, char *, char *, char *, char *, char *);

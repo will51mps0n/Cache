@@ -1,17 +1,8 @@
-/*
- * Project 1
- * EECS 370 LC-2K Instruction-level simulator
- *
- * Make sure to NOT modify printState or any of the associated functions
- */
-
 #include <stdbool.h>
 #include <stdlib.h>
 #include <stdint.h>
 #include <stdio.h>
 #include <string.h>
-
-// DO NOT CHANGE THE FOLLOWING DEFINITIONS
 
 // Machine Definitions
 #define MEMORYSIZE 65536 /* maximum number of words in memory (maximum number of lines in a given file)*/
