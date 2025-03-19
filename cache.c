@@ -23,7 +23,6 @@ extern int mem_access(int addr, int write_flag, int write_data);
  */
 extern int get_num_mem_accesses(void);
 
-// Use this when calling printAction. Do not modify the enumerated type below.
 enum actionType
 {
     cacheToProcessor,
@@ -33,7 +32,6 @@ enum actionType
     cacheToNowhere
 };
 
-/* You may add or remove variables from these structs */
 typedef struct blockStruct
 {
     int data[MAX_BLOCK_SIZE];
@@ -57,10 +55,6 @@ cacheStruct cache;
 void printAction(int, int, enum actionType);
 void printCache(void);
 
-/*
- * Set up the cache with given command line parameters. This is
- * called once in main(). You must implement this function.
- */
 void cache_init(int blockSize, int numSets, int blocksPerSet)
 {
     if (blockSize <= 0 || numSets <= 0 || blocksPerSet <= 0)
@@ -91,7 +85,6 @@ void cache_init(int blockSize, int numSets, int blocksPerSet)
     printf("Each set in the cache contains %d lines; there are %d sets\n",
            blocksPerSet, numSets);
 
-    // Your code here
 
     cache.blockSize = blockSize;
     cache.numSets = numSets;
