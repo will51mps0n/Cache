@@ -310,10 +310,6 @@ int getTag(int addr)
 //
 /*
  * print end of run statistics like in the spec. **This is not required**,
- * but is very helpful in debugging.
- * This should be called once a halt is reached.
- * DO NOT delete this function, or else it won't compile.
- * DO NOT print $$$ in this function
  */
 void printStats(void)
 {
